@@ -15,57 +15,57 @@
         android:text="  UseInterface"
         android:textColor="@android:color/white"/>
     <Button
-        android:id="@+id/buttom1"
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Buttom 1"/>
+        android:text="Button 1"/>
     <Button
-        android:id="@+id/buttom2"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="buttom 2"/>
+        android:text="button 2"/>
     <Button
-        android:id="@+id/buttom3"
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:text="buttom 3"/>
+        android:text="button 3"/>
     <Button
-        android:id="@+id/buttom4"
+        android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:text="buttom4"/>
+        android:text="button 4"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:id="@+id/buttom5"
-        android:text="buttom 5"/>
+        android:id="@+id/button5"
+        android:text="button 5"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="left"
-        android:id="@+id/buttom6"
-        android:text="buttom 6"/>
+        android:id="@+id/button6"
+        android:text="button 6"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="left"
-        android:id="@+id/buttom7"
-        android:text="buttom 7"/>
+        android:id="@+id/button7"
+        android:text="button 7"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:id="@+id/buttom8"
-        android:text="buttom 8"/>
+        android:id="@+id/button8"
+        android:text="button 8"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:id="@+id/buttom9"
-        android:text="buttom 9"/>
+        android:id="@+id/button9"
+        android:text="button 9"/>
 
 </LinearLayout>
