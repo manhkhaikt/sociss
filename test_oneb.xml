@@ -19,22 +19,22 @@
         android:layout_gravity="center_vertical">
 
         <Button
-            android:id="@+id/buttom1"
+            android:id="@+id/button1"
             android:layout_width="127dp"
             android:layout_height="wrap_content"
-            android:text="Buttom 1" />
+            android:text="Button 1" />
 
         <Button
-            android:id="@+id/buttom2"
+            android:id="@+id/button2"
             android:layout_width="127dp"
             android:layout_height="wrap_content"
-            android:text="Buttom 2" />
+            android:text="Button 2" />
 
         <Button
-            android:id="@+id/buttom3"
+            android:id="@+id/button3"
             android:layout_width="127dp"
             android:layout_height="wrap_content"
-            android:text="Buttom 3" />
+            android:text="Button 3" />
 
     </LinearLayout>
 
