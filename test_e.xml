@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
-            android:id="@+id/buttom1"
+            android:id="@+id/button1"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
             android:text="1"/>
@@ -25,7 +25,7 @@
             android:layout_toRightOf="@+id/buttom1"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
-            android:id="@+id/buttom2"
+            android:id="@+id/button2"
             android:text="2"/>
         
     </RelativeLayout>
@@ -36,19 +36,19 @@
             android:layout_width="127dp"
             android:layout_height="wrap_content"
             android:text="3"
-            android:id="@+id/buttom3"/>
+            android:id="@+id/button3"/>
         <Button
             android:layout_width="127dp"
             android:layout_height="wrap_content"
             android:text="4"
             android:layout_toRightOf="@id/buttom3"
-            android:id="@+id/buttom4"/>
+            android:id="@+id/button4"/>
         <Button
             android:layout_width="127dp"
             android:layout_height="wrap_content"
             android:text="5"
             android:layout_toRightOf="@id/buttom4"
-            android:id="@+id/buttom5"/>
+            android:id="@+id/button5"/>
 
     </RelativeLayout>
     <RelativeLayout
@@ -57,25 +57,25 @@
         <Button
             android:layout_width="95dp"
             android:layout_height="wrap_content"
-            android:id="@+id/buttom6"
+            android:id="@+id/button6"
             android:text="6"/>
         <Button
             android:layout_width="95dp"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/buttom6"
-            android:id="@+id/buttom7"
+            android:id="@+id/button7"
             android:text="7"/>
         <Button
             android:layout_width="95dp"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/buttom7"
-            android:id="@+id/buttom8"
+            android:id="@+id/button8"
             android:text="8"/>
         <Button
             android:layout_width="95dp"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/buttom8"
-            android:id="@+id/buttom9"
+            android:id="@+id/button9"
             android:text="9"/>
     </RelativeLayout>
 
