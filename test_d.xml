@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="UserInterface"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_marginLeft="228dp"
+        android:id="@+id/hang1">
+
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="on" />
+
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="off" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:id="@+id/hang2"
+        android:layout_below="@+id/hang1">
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="mc"/>
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="mr" />
+        <Button
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:text="m-" />
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="m+" />
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="/" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:id="@+id/hang3"
+        android:layout_below="@+id/hang2">
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="+/-"/>
+
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="7"/>
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text='8'/>
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text='9'/>
+
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="x" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:id="@+id/hang4"
+        android:layout_below="@+id/hang3">
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="%" />
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="4" />
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="5" />
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="6" />
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/hang5"
+        android:layout_below="@id/hang4"
+        android:layout_marginRight="81dp">
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="^" />
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="1" />
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="2" />
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="3" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/hang6"
+        android:layout_below="@id/hang5"
+        android:layout_marginRight="81dp">
+    <Button
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:text="ac" />
+    <Button
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:text="0" />
+    <Button
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:text="." />
+    <Button
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:text="=" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cong"
+        android:layout_width="76dp"
+        android:layout_height="96dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="2dp">
+
+        <Button
+            android:layout_width="76dp"
+            android:layout_height="100dp"
+            android:text="+" />
+
+    </LinearLayout>
+
+</RelativeLayout>
