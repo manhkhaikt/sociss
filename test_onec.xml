@@ -26,14 +26,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/button2"
         android:layout_below="@+id/user"
-        android:layout_toRightOf="@id/buttom7"
+        android:layout_toRightOf="@id/button7"
         android:layout_marginLeft="60dp"
         android:text="2"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button3"
-        android:layout_below="@id/buttom1"
+        android:layout_below="@id/button1"
         android:layout_marginTop="195dp"
         android:text="3"/>
     <Button
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/button4"
         android:layout_marginTop="195dp"
-        android:layout_below="@id/buttom3"
+        android:layout_below="@id/button3"
         android:text="4"/>
     <Button
         android:layout_width="wrap_content"
@@ -49,8 +49,8 @@
         android:id="@+id/button5"
         android:layout_marginTop="195dp"
         android:layout_marginLeft="60dp"
-        android:layout_toRightOf="@id/buttom8"
-        android:layout_below="@id/buttom9"
+        android:layout_toRightOf="@id/button8"
+        android:layout_below="@id/button9"
         android:text="5"/>
     <Button
         android:layout_width="wrap_content"
@@ -58,15 +58,15 @@
         android:id="@+id/button6"
         android:layout_marginTop="195dp"
         android:layout_marginLeft="60dp"
-        android:layout_toRightOf="@id/buttom3"
-        android:layout_below="@id/buttom7"
+        android:layout_toRightOf="@id/button3"
+        android:layout_below="@id/button7"
         android:text="6"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button7"
         android:layout_below="@+id/user"
-        android:layout_toRightOf="@id/buttom1"
+        android:layout_toRightOf="@id/button1"
         android:layout_marginLeft="60dp"
         android:text="7"/>
     <Button
@@ -75,8 +75,8 @@
         android:layout_marginTop="195dp"
         android:layout_marginLeft="60dp"
         android:id="@+id/button8"
-        android:layout_toRightOf="@id/buttom4"
-        android:layout_below="@id/buttom6"
+        android:layout_toRightOf="@id/button4"
+        android:layout_below="@id/button6"
         android:text="8"/>
     <Button
         android:layout_width="wrap_content"
@@ -84,8 +84,8 @@
         android:layout_marginLeft="60dp"
         android:layout_marginTop="195dp"
         android:id="@+id/button9"
-        android:layout_toRightOf="@id/buttom6"
-        android:layout_below="@id/buttom2"
+        android:layout_toRightOf="@id/button6"
+        android:layout_below="@id/button2"
         android:text="9"/>
 
 
