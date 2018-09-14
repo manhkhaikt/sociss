@@ -20,24 +20,24 @@
 
         <Button
             android:layout_weight="1"
-            android:id="@+id/buttom1"
+            android:id="@+id/button1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Buttom 1" />
+            android:text="Button 1" />
 
         <Button
             android:layout_weight="1"
-            android:id="@+id/buttom2"
+            android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Buttom 2" />
+            android:text="Button 2" />
 
         <Button
             android:layout_weight="1"
-            android:id="@+id/buttom3"
+            android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Buttom 3" />
+            android:text="Button 3" />
 
     </LinearLayout>
 
