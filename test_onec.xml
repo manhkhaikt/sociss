@@ -19,46 +19,46 @@
         android:layout_width="wrap_content"
         android:layout_below="@+id/user"
         android:layout_height="wrap_content"
-        android:id="@+id/buttom1"
+        android:id="@+id/button1"
         android:text="1"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttom2"
+        android:id="@+id/button2"
         android:layout_below="@+id/user"
         android:layout_alignParentRight="true"
         android:text="2"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttom3" 
+        android:id="@+id/button3" 
         android:layout_alignParentLeft="true"
         android:layout_centerInParent="true"
         android:text="3"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttom4"
+        android:id="@+id/button4"
         android:layout_alignParentBottom="true"
         android:text="4"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttom5"
+        android:id="@+id/button5"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:text="5"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttom6"
+        android:id="@+id/button6"
         android:layout_below="@id/user"
         android:layout_centerInParent="true"
         android:text="6"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttom7"
+        android:id="@+id/button7"
         android:layout_below="@+id/user"
         android:layout_toRightOf="@id/buttom1"
         android:layout_marginLeft="60dp"
@@ -66,7 +66,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/buttom8"
+        android:id="@+id/button8"
         android:layout_centerInParent="true"
         android:layout_alignParentBottom="true"
         android:text="8"/>
@@ -74,7 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:id="@+id/buttom9"
+        android:id="@+id/button9"
         android:layout_alignParentRight="true"
         android:text="9"/>
 
